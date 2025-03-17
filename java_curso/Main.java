@@ -8,10 +8,8 @@ public class Main {
     public static void main(String[] args) {
             // stancia de cada carro, new envoca
             Carro meuCarro = new Carro("Bm");
-            Carro meuCarro2 = new Carro("Fusca");
-            Carro meuCarro3 = new Carro("Virtus");
 
-            String resultado = meuCarro2.acelerar();
+            String resultado = meuCarro.acelerar();
             System.out.println(resultado);
     }
 }
