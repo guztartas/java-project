@@ -6,4 +6,8 @@ public abstract class SerVivo {
     public void dormir(){
         System.out.println("Dormindo");
     }
+
+    private void caminhar(){
+        System.out.println("Dormindo");
+    }
 }
