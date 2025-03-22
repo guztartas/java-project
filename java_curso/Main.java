@@ -11,6 +11,9 @@ public class Main {
 
             String resultado = meuCarro.acelerar();
             System.out.println(resultado);
+
+            SerVivo meuSer = new Humano();
+            meuSer.idade();
     }
 }
 
@@ -29,6 +32,7 @@ class Carro {
     public String acelerar() {
         System.out.println("Acelerar o carro " + this.modelo);
         String result = this.frear();
+
         return result + "Carro " + this.modelo + " foi acelerado!";
     }
 }
